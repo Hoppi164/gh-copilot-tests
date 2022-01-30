@@ -39,8 +39,44 @@ Co-pilot anticipated what i wanted, and somehow knew that the output of the prev
 ![image](https://user-images.githubusercontent.com/9586453/151690689-ccfff787-4004-415c-93ab-7aaf2f3f5004.png)
 It seems the algoritm driving co-pilot can sometimes be driven into a small feedback loop, resulting in it repeating itself until you correct it.
 
+* Boy it's good at guessing what you want..
+![image](https://user-images.githubusercontent.com/9586453/151690793-0d199774-c890-44b6-8907-46f4a935b612.png)
 
+* It's got a habit of giving functions very sensible names and arguments
+![image](https://user-images.githubusercontent.com/9586453/151690798-ff6949fc-5db4-4ea1-8e06-4812fc736760.png)
 
- 
+* Comparing base stats: It's at this point in the article i should probably mention that i've never played a pokemon game in my life, so in this matter i'm going to trust that co-pilot is correct in comparing base stats to determine the winner.
+![image](https://user-images.githubusercontent.com/9586453/151690829-9eaee5f7-7c40-476f-accd-4a02809b547a.png)
 
+* More short line auto-suggestions
+![image](https://user-images.githubusercontent.com/9586453/151690899-27db08df-3d89-42eb-b06d-129c1ab4902e.png)
+![image](https://user-images.githubusercontent.com/9586453/151690932-851ef408-6a39-461f-b37c-581167544113.png)
+
+* Time to make them fight!
+![image](https://user-images.githubusercontent.com/9586453/151690947-a2f5bbe7-f87b-41bf-ab7e-7cc0d071b593.png)
+The previous time i tested this it listed Bulbasaur, and Ivysaur as pokemon0 and pokemon1 respectively; im going to assume it will keep them in the same order.
+![image](https://user-images.githubusercontent.com/9586453/151690973-ba5fffc2-6bfe-43f9-b734-5aa5c2dcf628.png)
+* Ivysaur is the winner!
+![image](https://user-images.githubusercontent.com/9586453/151691224-242b5e48-eba4-4b28-8be4-b80d88b11f21.png)
+* So after executing this, my wife made the comment that an Ivysaur is apparently a "grown up version" of the Bulbasaur, so it would be better to make two random pokemon fight.
+![image](https://user-images.githubusercontent.com/9586453/151691420-dcd09ec1-97b9-4e83-8a22-dd677620279d.png)
+![image](https://user-images.githubusercontent.com/9586453/151691434-43e4e9cf-6afa-41ca-b2d8-56af00d4b225.png)
+![image](https://user-images.githubusercontent.com/9586453/151691448-b5f15e04-e1b0-4616-bda7-25f2764d61aa.png)
+![image](https://user-images.githubusercontent.com/9586453/151691471-f3f1bc6a-73fd-4607-be31-d4e3acbff9b5.png)
+* If you don't have a closing bracket on your function: it will sometimes suggest your code one line at a time. If you add a closing bracket: it will suggest the entire function all as one code chunk
+![image](https://user-images.githubusercontent.com/9586453/151691531-44760181-9848-4ef5-9cb5-7f68666d87bc.png)
+* It often figures out when you label a variable as something1, you will probably label something immediately after as something2
+![image](https://user-images.githubusercontent.com/9586453/151691593-d0545788-37a7-4cbf-9529-9eaefc4a2dae.png)
+* Adjusting out game code, it took a little bit of nudging to know what i wanted to console log
+![image](https://user-images.githubusercontent.com/9586453/151691685-83801a75-7f43-428e-a42d-ef5db89f4225.png)
+* Now we have to get their details again, (i'll do it a bit cleaner this time)
+![image](https://user-images.githubusercontent.com/9586453/151691706-33bb8da2-f1dd-4518-ae92-8e154dc8a8e8.png)
+![image](https://user-images.githubusercontent.com/9586453/151691715-eeb54dc1-20fb-45ee-bfa2-2c5b47c81991.png)
+* And we need to update the getWinner paramaters
+![image](https://user-images.githubusercontent.com/9586453/151691738-17408712-805b-4316-9ebd-2b9f931da737.png)
+* Oops!, That's an error..
+![image](https://user-images.githubusercontent.com/9586453/151691794-00a9edf9-6ae7-47e3-8ddf-ae5ba3671373.png)
+So Co-pilot was smart enough to know that /pokemon/random was a likely candidate for an api endpoint, but it wasn't smart enough to actually check the docs!
+![image](https://user-images.githubusercontent.com/9586453/151691913-60fc9863-bfaa-4508-8447-714926eb20de.png)
+There is no /pokemon/random endpoint on this API
 
