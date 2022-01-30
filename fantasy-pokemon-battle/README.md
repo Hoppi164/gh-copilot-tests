@@ -1,7 +1,7 @@
 # Fantasy Pokemon Battle
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-######This program will allow a player to choose 2 pokemon, to have an imaginary battle, and program will tell us which pokemon would win.
+###### This program will allow a player to choose 2 pokemon, to have an imaginary battle, and program will tell us which pokemon would win.
 
 This is a simple program with the goal of testing co-pilots understanding of api's and promises.
 
