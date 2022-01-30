@@ -76,7 +76,26 @@ The previous time i tested this it listed Bulbasaur, and Ivysaur as pokemon0 and
 ![image](https://user-images.githubusercontent.com/9586453/151691738-17408712-805b-4316-9ebd-2b9f931da737.png)
 * Oops!, That's an error..
 ![image](https://user-images.githubusercontent.com/9586453/151691794-00a9edf9-6ae7-47e3-8ddf-ae5ba3671373.png)
-So Co-pilot was smart enough to know that /pokemon/random was a likely candidate for an api endpoint, but it wasn't smart enough to actually check the docs!
+So Co-pilot was smart enough to know that /pokemon/random was a likely candidate for an api endpoint, but it wasn't smart enough to actually check the docs because there is no /pokemon/random endpoint on this API!
 ![image](https://user-images.githubusercontent.com/9586453/151691913-60fc9863-bfaa-4508-8447-714926eb20de.png)
-There is no /pokemon/random endpoint on this API
+
+* However there only seem to be 1118 pokemon on this API endpoint (again, i haven't played pokemon but that seems like the full list of pokemon to me); so instead i'll just randomly generate a number between 0, and 1118 and return the pokemon at that index.
+![image](https://user-images.githubusercontent.com/9586453/151695179-be52dfa2-8947-445f-83ea-2210e7b6e8e0.png)
+![image](https://user-images.githubusercontent.com/9586453/151695252-ddfced00-0938-4be3-a492-c9e89d7e6f63.png)
+![image](https://user-images.githubusercontent.com/9586453/151695270-acb22b29-e368-4eb3-b957-fedf4eb02b48.png)
+![image](https://user-images.githubusercontent.com/9586453/151695282-f8b91118-c5de-4187-906a-91a0402ea30a.png)
+![image](https://user-images.githubusercontent.com/9586453/151695297-0570f4d2-acd3-422f-8f25-2b0c610c88be.png)
+![image](https://user-images.githubusercontent.com/9586453/151695318-3a362f96-145f-4956-96ac-ff3b880a2a8a.png)
+![image](https://user-images.githubusercontent.com/9586453/151695329-4af15136-68e0-4112-a561-efd179a85665.png)
+![image](https://user-images.githubusercontent.com/9586453/151695341-18d8594d-417e-4d20-9a0e-87fad0f45eb8.png)
+* Now i'll just remove the old redundant code
+![image](https://user-images.githubusercontent.com/9586453/151695367-0b939dfd-e74e-4e2e-b77e-afb45feb9095.png)
+* And it works!, we're now randomly picking two pokemon and making them fight to determine who would win (purely determined on their base stats).
+![image](https://user-images.githubusercontent.com/9586453/151695682-0f63ca13-99c9-4c59-8f36-376eb2df7071.png)
+* Did the program work?: Yes
+* How user friendly was Co-pilot?: Pretty damn friendly, it discovered an open API for me, and it wrote several functions all by itself.
+* How clean was the code?: not bad, running standardJS linter over the file picked up 68 warnings, however all of these are automatically fixable.
+![image](https://user-images.githubusercontent.com/9586453/151695797-d4040317-8392-48f2-a3b7-e45fe8adf0ce.png)
+* Do i think Co-pilot will put me out of a job?: Nah, it's a long way off that happeing; Machines have always made jobs easier, but you still need somebody to drive the tractor.
+
 
