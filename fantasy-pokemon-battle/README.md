@@ -22,3 +22,10 @@ Changing a few words completely changed the output. This one returns the modern,
 
 * Co-pilot auto-suggests small line completions as well as large codeblocks
 ![image](https://user-images.githubusercontent.com/9586453/151690313-9da73568-7a96-422e-bd21-84058b61bdd9.png)
+
+
+* First test of the function
+Open a new tab in firefox, and paste the code into the JS console (do it on an empty tab, not a webpage) It lists out 10 pokemon successfully on the first attempt!
+![image](https://user-images.githubusercontent.com/9586453/151690384-98916f08-864d-4ed2-bd9b-5b0b6f5552ef.png)
+
+
