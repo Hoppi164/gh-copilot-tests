@@ -18,3 +18,7 @@ Co-pilot kept suggesting code that uses Jquery, when i wanted to to use the mode
 ![image](https://user-images.githubusercontent.com/9586453/151689625-b96451fb-625a-4eba-b5e4-af43ef4adad1.png)
 Changing a few words completely changed the output. This one returns the modern, promise based output i was expecting
 ![image](https://user-images.githubusercontent.com/9586453/151689765-66a995f4-d93a-4d7f-bfb5-756709c719cc.png)
+
+
+* Co-pilot auto-suggests small line completions as well as large codeblocks
+![image](https://user-images.githubusercontent.com/9586453/151690313-9da73568-7a96-422e-bd21-84058b61bdd9.png)
